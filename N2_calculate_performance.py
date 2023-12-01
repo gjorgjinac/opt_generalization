@@ -91,10 +91,10 @@ dimension=args.dimension
 algorithms=args.algorithms.split('-')
 id_columns=['f']
 benchmarks=['bbob','affine','random','m4']
-for benchmark in ['affine','bbob']:
+for benchmark in benchmarks:
     print(benchmark)
     runs_df=get_all_runs(benchmark,id_columns,algorithms, dimension)
     columns_normalize_algorithm_score_new(dimension,runs_df, id_columns, benchmark, args.algorithms)
     #columns_normalize_algorithm_score(dimension,runs_df, id_columns, benchmark, args.algorithms)
-    get_best_algorithm_per_instance(dimension,runs_df, id_columns, benchmark, True, args.algorithms)
-    rank_algorithms(dimension,runs_df, id_columns, benchmark, args.algorithms)
+    #get_best_algorithm_per_instance(dimension,runs_df, id_columns, benchmark, True, args.algorithms)
+    #rank_algorithms(dimension,runs_df, id_columns, benchmark, args.algorithms)

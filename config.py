@@ -21,4 +21,6 @@ affine_max_instance_id=5
 affine_alphas=[0.25,0.5,0.75]
 bbob_max_instance_id=100
 maximum_generations_to_run_algorithms=50
+m4_problem_count=5000
+random_problem_count=5000
 all_benchmarks=['bbob','affine','random','m4']

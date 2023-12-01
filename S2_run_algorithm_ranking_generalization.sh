@@ -2,7 +2,6 @@
 
 dimension=3
 algorithms='DE-GA-ES-PSO'
-#algorithms='PSO1-PSO2-PSO3-PSO4'
 for train_benchmark in random m4 bbob affine
 do
     for sample_count_dimension_factor in 50 100
