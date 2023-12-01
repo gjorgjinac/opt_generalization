@@ -1,4 +1,4 @@
-# opt_generalization
+# A Cross-Benchmark Examination of Feature-based Algorithm Selector Generalization in Single-Objective Numerical Optimization
 
 This repository contains the code for the paper "A Cross-Benchmark Examination of Feature-based Algorithm Selector Generalization in Single-Objective Numerical Optimization".
 
